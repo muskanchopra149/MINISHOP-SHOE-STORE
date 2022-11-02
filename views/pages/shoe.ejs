@@ -1,0 +1,417 @@
+<html lang="en">
+	<head>
+		<link rel="icon" href="" type="image/png">
+		<!-- Bootstrap 4.0.0 -->
+		<script src="script/bootstrap.bundle.min.js"></script>
+		<script src="script/bootstrap.min.js"></script>
+		<!-- Font Aweseom 5.9.0 -->
+		<!-- Bootstrap 4.0.0 -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+
+		<!-- Fonts CSS -->
+		<link rel="stylesheet" href="css/fonts.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/shop.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">	
+		<link rel="stylesheet" href="css/timer.css">	
+		<!--SCRIPT LINK-->
+		<script src="script/jquery-3.2.1.min.js"></script>
+		<script src="script/timer.js"></script>
+		
+	</head>
+	<body>
+		<!--Header Menu Area -->
+		<header>
+			<div class="topHeader bg-dark text-light">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-3 col-lg-3 text-center">
+							<div class="">
+								<span><i class="fas fa-phone-alt"></i></span>
+								<label class="pl-2">+91987654321</label>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-3 text-center">
+							<span><i class="fas fa-paper-plane"></i></span>
+							<label class="pl-2">minishop@gmail.com</label>
+						</div>
+						<div class="col-xl-6 col-lg-6 text-center">
+							<label>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</label>
+						</div>
+					</div>
+				</div>
+			</div>
+<div class="bannerBgColor">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light row py-0">
+			<div class="col-xl-6 col-lg-4 col-md-10 col-sm-10 py-2 mLogo">
+				<a href=""><h4>Minishop</h4></a>
+			</div>
+			<button class="navbar-toggler col-xl-6 col-lg-6 col-md-2 col-sm-2" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse col-xl-6 col-lg-8" id="navbarNavAltMarkup">
+				<div class="navbar-nav text-dark">
+					<ul class="text-light pt-2 mx-auto">
+						<li class="px-2"><a href="" class="pr-3">HOME</a></li>
+						<li class="px-2"><a href="" class="pr-3">CATLOG</a></li>
+						<li class="px-2"><a href="" class="pr-3">ABOUT</a></li>
+						<li class="px-2"><a href="" class="pr-3">BLOG</a></li>
+						<li class="px-2"><a href="" class="pr-3">CONTACT</a></li>
+						<li class="px-2"><a href="" class="pr-3"><i class="fas fa-luggage-cart"></i> [0]</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="bannerText">
+			<div class="row py-5">
+				<div class="col-xl-5 py-5">
+					<div class="py-5">
+						<label class="bg-dark text-light"> 	&nbsp; #New Arrival &nbsp;</label>
+						<h1>Shoes Collection 2019</h1>
+						<p class="py-3">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p>
+						<button type="button" class="btn text-light px-4 py-2">Discover Now</button>
+					</div>
+				</div>
+				<div class="col-xl-7 bannerIMG">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		</header>
+		
+		<!--Main Content-->
+		<main class="parent">
+			<div class="container py-5">
+	<div class="row py-5 text-center topServices">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+			<div><i class="fas fa-suitcase-rolling"></i></div>
+			<div>
+				<h5 class="py-4">Free Shipping</h5>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+			<div><i class="fas fa-user-tie"></i></div>
+			<div>
+				<h5 class="py-4">Support Customer</h5>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+			<div><i class="fas fa-credit-card"></i></div>
+			<div>
+				<h5 class="py-4">Secure Payments</h5>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="arrivalBG">
+	<div class="container pt-5">
+		<div class="py-5">
+			<div class="text-center ArrivalHeading">
+				<h1>New Shoes Arrival</h1>
+				<p class="py-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+			</div>
+			
+			
+			<div class="row pb-3">
+			<%result.forEach(function(item){%>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+					<div class="imgBG">
+						<div class="p-3">
+							<img src="images/<%= item.image%>" alt="image" class="w-100" />
+						</div>
+					</div>
+					<div class="imgContent bg-white">
+						<div class="p-3">
+							<div class="row mx-0">
+								<div class="float-right col-md-12 w-50">
+									<span>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</div>
+							</div>
+							<div class="py-2">
+								<h6><%=item.name%></h6>
+								<p class="m-0">$<%=item.price%></p>
+							</div>
+							<form action="/add_to_cart" method="post">
+								<input type="hidden" name="id" value="<%=item.id%>">
+								<input type="hidden" name="name" value="<%=item.name%>">
+								<input type="hidden" name="price" value="<%=item.price%>">
+								<input type="hidden" name="quantity" value="1">
+								<input type="hidden" name="image" value="<%=item.image%>">
+								<input type="submit" value="Add to Cart" class="btn btn-secondary">
+							</form>
+						</div>
+					</div>
+				</div>
+				<%})%>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class="container Collection">
+	<div class="row">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-10 mx-auto px-0">
+			<div class="men ">
+				<div class="MainContent text-center text-light">
+					<h6>MEN'S SHOES<h6>
+					<h3>Men's Collection</h3>
+					<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<a href="menindex.html"><button type="button" class="btn text-light px-4 py-2 bg-dark">Shop Now</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 mx-auto px-0">
+			<div class="women">
+				<div class="MainContent	text-left text-light">
+					<h6>WOMEN'S SHOES<h6>
+					<h3>Women's Collection</h3>
+					<p class="text-light">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<a href="womenindex.html"><button type="button" class="btn text-light px-4 py-2 bg-dark">Shop Now</button></a>
+				</div>
+			</div>
+			<div class="row mx-0">
+				<div class="col-xl-6 col-lg-6 col-md-6 px-0 summerSale">
+					<div class="p-5 text-center">
+						<h6>SUMMER SALE<h6>
+						<h3>Extra 50% Off</h3>
+						<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean..</p>
+						<button type="button" class="btn text-light px-4 py-2 bg-dark">Shop Now</button>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 px-0">
+					<div class="bstseller">
+						<div class="p-5	text-center text-light">
+							<h6>SHOES<h6>
+							<h3>Best Sellers</h3>
+							<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean..</p>
+							<a href="index.html"><button type="button" class="btn text-light px-4 py-2 bg-dark">Shop Now</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="monthDeal">
+	<div class="container py-5">
+		<div class="row pt-5">
+				<img src="images/dealshoes.png" alt="Image" class="w-50"/>
+				<img src="images/dealshoes.png" alt="Image" class="w-50"/>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-3">
+				<div class="text-light">
+					<h6>DEAL OF THE MONTH</h6>
+					<h1>Deal of the month</h1>
+					<div class="row py-3">
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 MSet">
+							<h4>175</h4>
+							<label class="">DAYS</label>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 MSet">
+							<h4>23</h4>
+							<label class="">HOURS</label>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 MSet">
+							<h4>05</h4>
+							<label class="">MINUTES</label>
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 MSet">
+							<h4>40</h4>
+							<label class="">SECONDS</label>
+						</div>
+					</div>
+					<div class="text-dark">
+						<h2>Nike Free Sport</h2>
+						<span class="text-dark py-2"><strike>$120.00</strike></span>
+						<span class="text-light py-2">$80.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container CustomerSays py-5">
+	<div class="row py-5">
+		<div class="col-xl-5 col-lg-5">
+			<div class="BG1 p-4">
+				<div class="row">
+					<div class="float-left w-25 text-center">
+						<i class="fas fa-gift"></i>
+					</div>
+					<div class="float-right w-75">
+						<h5>Free Shipping<h5>
+						<p>Separated they live in. A small river named Duden flows</p>
+					</div>
+				</div>
+			</div>
+			<div class="BG2 p-4">
+				<div class="row">
+					<div class="float-left w-25 text-center">
+						<i class="fas fa-gifts"></i>
+					</div>
+					<div class="float-right w-75">
+						<h5>Valuable Gifts<h5>
+						<p>Separated they live in. A small river named Duden flows</p>
+					</div>
+				</div>
+			</div>
+			<div class="BG3 p-4">
+				<div class="row">
+					<div class="float-left w-25 text-center">
+						<i class="far fa-address-card"></i>
+					</div>
+					<div class="float-right w-75">
+						<h5>All Day Support<h5>
+						<p>Separated they live in. A small river named Duden flows</p>
+					</div>
+				</div>
+			</div>
+			<div class="bg-dark p-4">
+				<div class="row">
+					<div class="float-left w-25 text-center">
+						<i class="fas fa-headset"></i>
+					</div>
+					<div class="float-right w-75 text-light">
+						<h5>All Day Support<h5>
+						<p>Separated they live in. A small river named Duden flows</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-7 col-lg-7 MCenter">
+			<div>
+				<h1>Our satisfied customer says</h1>
+				<p class="py-3">
+					Far far away, behind the word mountains, 
+					far from the countries Vokalia and Consonantia,
+					there live the blind texts. Separated they live in
+				</p>
+				<div class="SideBar">
+					<img src="images/person2.jpeg" alt="image" />
+					<p class="py-3">
+						Far far away, behind the word mountains,
+						far from the countries Vokalia and Consonantia,
+						there live the blind texts.
+					</p>
+				</div>
+				<div class="bottomPrt">
+					<h5>Muskan Chopra</h5>
+					<span>BTECH</span>
+					<div class="py-5">
+						<span class="py-5">
+							<i class="fas fa-circle"></i>
+							<i class="far fa-circle"></i>
+							<i class="far fa-circle"></i>
+							<i class="far fa-circle"></i>
+							<i class="far fa-circle"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="instagram">
+	<div class="container  text-center">
+		<h1>Follow Us On Instagram</h1>
+		<p class="py-4">
+			Far far away, behind the word mountains,
+			far from the countries Vokalia and Consonantia, 
+			there live </br> the blind texts. Separated they live in
+		</p>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img1.png" alt="image" class="w-100" /></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img2.jpg" alt="image" class="w-100" /></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img3.jpg" alt="image" class="w-100" /></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img4.png" alt="image" class="w-100" /></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img5.jpg" alt="image" class="w-100" /></div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 px-0"><img src="images/img6.png" alt="image" class="w-100" /></div>
+		</div>
+	</div>
+</div>
+
+		</main>
+		
+		<!--Footer Area-->
+		<footer>
+			<div class="mainFooter">
+	<div class="container pb-5">
+		<div class="row py-5">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 py-2">
+				<div class="Row1">
+					<h6 class="text-light">MINISHOP</h6>
+					<p class="py-3">Far far away, behind the word mountains, far from the countries.</p>
+					<div>
+						<span class="px-3"><i class="fab fa-twitter"></i></span>
+						<span class="px-3"><i class="fab fa-facebook-f"></i></span>
+						<span class="px-3"><i class="fab fa-instagram"></i></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 py-2">
+				<div>
+					<h6 class="text-light">MINISHOP</h6>
+					<ul class="py-3">
+						<li>Shop</li>
+						<li>About</li>
+						<li>Journal</li>
+						<li>Contact Us</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 py-2">
+				<div class="helpSec">
+					<h6 class="text-light">Help</h6>
+					<ul class="py-3">
+						<li><a href="">FAQs</a></li>
+						<li><a href="">Return & Exchange</a></li>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Terms & Conditions</a></li>
+						<li><a href="">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 py-2 MobFooter">
+				<div class="helpSec">
+					<h6 class="text-light">HAVE A QUESTION?</h6>
+					<div class="py-3">
+						<div class="row">
+							<div class="float-left"><label><i class="fas fa-map-marker-alt"></i></label></div>
+							<div class="float-right"><span>203 Fifa Street,lane 69</span></div>
+						</div>
+						<div class="row py-2">
+							<div class="float-left"><label><i class="fas fa-phone-alt"></i></label></div>
+							<div class="float-right"><span>+919876543219</span></div>
+						</div>
+						<div class="row py-2">
+							<div class="float-left"><label><i class="fas fa-envelope"></i></label></div>
+							<div class="float-right"><span>	info@minishop.com</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerB">
+			<p class="text-center">Made By Muskan Chopra</p>
+		</div>
+	</div>
+</div>		
+</footer>
+</body>
+</html>
