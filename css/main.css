@@ -1,0 +1,54 @@
+@media only screen and (max-width: 499px){
+	.topHeader{
+		display:none;
+	}
+	
+	nav .mLogo{
+		width:80%;
+	}
+	
+	nav .navbar-toggler{
+		width:20%;
+	}
+	
+	.bannerText h1{
+		font-size: 34px;
+		line-height: 44px;
+	}
+	
+	.monthDeal .MSet{
+		width:25%;
+	}
+	
+	.CustomerSays .MCenter{
+		text-align:center;
+	}
+	
+	.mainFooter{
+		text-align:center;
+	}
+	
+	.mainFooter p{
+		padding-bottom:0 !important;
+	}
+	
+	.mainFooter svg{
+		font-size:20px;
+	}
+	
+	.MobFooter .float-left{
+		width:100%;
+	}
+	
+	.MobFooter .float-right{
+		width:100%;
+	}
+	
+	.monthDeal h4{
+		font-size:25px;
+	}
+	
+	.navbar{
+		padding: 18px 14px !important;
+	}
+}

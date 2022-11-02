@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+    section {
+        $h1-font-size: 40px;
+    
+        > h2 {
+            font-size: 20px;
+        }
+        > h1 {
+            font-size: $h1-font-size;
+        }
+        ul {
+            column-gap: 45px;
+            li {
+                h1 {
+                    font-size: $h1-font-size;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    section {
+        ul {
+            column-gap: 30px;
+        }
+    }
+}@media only screen and (max-width: 370px){
+
+	.monthDeal h6{
+		font-size:11px;
+	}
+	
+	.monthDeal h1, h2{
+		font-size:25px;
+	}
+	
+	.CustomerSays p{
+		line-height:19px;
+		font-size:14px;
+	}
+	
+	.CustomerSays svg{
+		font-size:45px;
+	}
+	
+	.bottomPrt svg {
+		font-size: 10px;
+	}
+	
+	.CustomerSays .SideBar p {
+		font-size: 17px;
+		line-height: 30px;
+	}
+	
+	.CustomerSays .SideBar p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	
+
+}

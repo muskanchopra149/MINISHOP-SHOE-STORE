@@ -1,0 +1,283 @@
+	/* Header */
+	
+.topHeader span,label, nav ul a, .bannerText button, .topServices p, .arrivalBG span{
+	font-family: 'open_sansregular';
+}
+	
+.topHeader span,label{
+	font-size:11px;
+	letter-spacing:1px;
+}
+
+.bannerBgColor{
+	background-color:#dbcc8f;
+}
+
+nav li{
+	display:inline;
+}
+
+nav ul a {
+	font-size:11px;
+	letter-spacing:1px;
+}
+
+nav ul a svg{
+	font-size:8px !important;
+}
+
+.mLogo a, nav ul a {
+	color:#000;
+	text-decoration:none;
+}
+
+.mLogo a, .imgContent h6, .monthDeal h2, .monthDeal span, .mainFooter h6{
+	font-family: 'open_sansbold';
+}
+
+.bannerIMG{
+	background-image: url('../images/bannerIMG.png') ;
+	background-size:cover;
+	height:550px; 
+}
+
+.bannerText label{
+	letter-spacing:2px;
+	font-size:14px;
+}
+
+.bannerText h1{
+	font-family: 'roboto_slablight';
+	font-size:44px;
+	letter-spacing:2px;
+	line-height:55px;
+}
+
+.bannerText p{
+	color:rgb(100, 93, 65);
+	font-size:15px;
+}
+
+.bannerText button{
+	font-size:14px;
+	background-color:#c2a942;
+	border-radius:0px;
+}
+
+	/* Home */
+	
+.topServices svg{
+	font-size:52px;
+}
+
+.topServices p, .ArrivalHeading p{
+	font-size: 15px;
+	line-height:30px;
+    font-weight: 400;
+    color:#808080;
+}
+
+.arrivalBG{
+	background-color:#f8f9fa;
+}
+
+.arrivalBG .imgBG{
+	background-color:#ececec;
+}
+
+.arrivalBG .imgContent svg{
+	font-size:12px;
+	color:#dbcc8f;
+}
+
+.arrivalBG span{
+	font-size:12px;
+	letter-spacing:1px;
+	color:#cdcdcd;
+}
+
+.imgContent h6{
+	font-size:15px;
+}
+
+.Collection .men{
+	background-image: url('../images/mencollection.png');
+	background-size:cover;
+	height:600px;
+}
+
+.Collection .women{
+	background-image: url('../images/womencollection.png');
+	background-size:cover;
+	height:300px;
+}
+
+.Collection .bstseller{
+	background-image: url('../images/bestseller.png');
+	background-size:cover;
+	height:300px;
+}
+
+.Collection .MainContent{
+	padding:80% 15% 20%;
+}
+
+.MainContent h6, .summerSale h6, .bstseller h6, .monthDeal h6{
+	font-family: 'open_sanssemibold';
+	letter-spacing:3px;
+	font-size:14px;
+}
+
+.MainContent button, .summerSale button, .bstseller button{
+	border-radius:30px;
+	font-size:13px;
+}
+
+.women .MainContent{
+	padding:6% 5% 11% 50%;
+}
+
+.bstseller .MainContent{
+	padding:11% 15% 10%;
+}
+
+.monthDeal{
+	background-color:#dbcc8f;
+}
+
+.monthDeal h4{
+	font-size:40px;
+	font-family: 'open_sanssemibold';
+}
+
+.monthDeal label{
+	font-size:12px;
+	letter-spacing:2px;
+}
+
+.monthDeal span{
+	font-size:22px;
+}
+
+.monthDeal ul{
+	margin-left:-40px;
+}
+
+.monthDeal li{
+	display:inline;
+}
+
+.CustomerSays .BG1{
+	background-color:#f7f7f7;
+}
+
+.CustomerSays .BG2{
+	background-color:#e5e5e5;
+}
+
+.CustomerSays .BG3{
+	background-color:#dbcc8f;
+}
+
+.CustomerSays svg{
+	font-size:70px;
+	color:#646c74;
+}
+
+.CustomerSays p{
+	color:#808080;
+	font-size:15px;
+	font-weight:400;
+	line-height:28px;
+}
+
+.CustomerSays .bg-dark p{
+	color:#a5a1a1;
+}
+
+.CustomerSays .bg-dark svg{
+	color:#a5a1a1;
+}
+
+.CustomerSays h1{
+	letter-spacing:1px;
+}
+
+.CustomerSays .SideBar img{
+	width:15%;
+}
+
+.CustomerSays .SideBar p{
+	font-size:20px;
+	line-height: 36px;
+}
+
+.CustomerSays .bottomPrt h5{
+	color:#dbcc8f;
+}
+
+.CustomerSays .bottomPrt span{
+	color:#cccccc;
+	font-size:14px;
+	letter-spacing:2px;
+}
+
+.bottomPrt svg{
+	font-size:10px;
+}
+
+p{
+	color:#808080;
+	font-size:15px;
+}
+
+.container-fluid img{
+	height:80%;
+}
+
+	/* Footer */
+	
+.mainFooter{
+	background-color:#000;
+}
+	
+.mainFooter h6{
+	letter-spacing:2px;
+	font-size:14px;
+}
+
+.mainFooter p, li, a, .helpSec span,svg{
+	color:#c7c7c7;
+	font-size:15px;
+	line-height:28px;
+}
+
+.mainFooter li{
+	list-style:none;
+	line-height:35px;
+}
+
+.mainFooter ul{
+	margin-left:-39px;
+	display:inline;
+}
+
+.helpSec .float-left{
+	width:10%;
+}
+
+.helpSec .float-right {
+	width:90%;
+}
+
+.helpSec svg{
+	font-size:18px;
+}
+
+.footerB a{
+	color:#dbcc8f;
+}
+
+.Row1{
+	font-size:30px;
+}
